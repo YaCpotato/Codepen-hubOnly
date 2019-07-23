@@ -183,5 +183,44 @@ var writeCalendar = new Vue({
 </script>
 
 <style>
-  
+  body {
+  background-color: write;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica neue, roboto;
+}
+
+h1 {
+  color: #bdbdbd;
+  font-weight: 300;
+}
+
+#task{
+  width:100vw;
+}
+#date{
+  height:120px;
+}
+
+.date-info{
+  background-color:red;
+  height:30px;
+  width:70vw;
+}
+.days{
+  text-align:left;
+}
+
+li{
+  display:inline-block;
+  width:20px;
+  border-right: solid 1px white;
+  border-left: solid 1px white;
+}
+.tag{
+  width:5vw;
+}
 </style>
