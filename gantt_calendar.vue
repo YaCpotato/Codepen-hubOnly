@@ -71,27 +71,6 @@
   </table>
   
 </div>
-<!--style>
-  :root{
-    --base-width:25px;
-  }
-  
-  #headyear{
-    background-color:red;
-    width:var(--base-width);
-  }
-  
-  #headmonth{
-    background-color:blue;
-    width:calc(var(--base-width) * 31);
-  }
-  
-  #headday{
-    background-color:green;
-    width:25px;
-    padding:2px;
-  }
-</style-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/locale/ja.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
